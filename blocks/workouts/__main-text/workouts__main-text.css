@@ -1,0 +1,7 @@
+.workouts__main-text {
+  grid-area: text;
+  font-size: 18px;
+  line-height: 28px;
+  color: #222222;
+  opacity: 0.7;
+}
