@@ -1,0 +1,6 @@
+.quote__text {
+    padding: 0 0 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

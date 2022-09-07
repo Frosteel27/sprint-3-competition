@@ -1,0 +1,9 @@
+.cover__title {
+    grid-area: title;
+    margin: 0;
+    padding: 0;
+    max-width: 460px;
+    font-size: 55px;
+    line-height: 1.1;
+    font-weight: 700;
+}

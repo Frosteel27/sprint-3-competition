@@ -1,0 +1,14 @@
+.cover {
+    padding: 20px 0 0;
+    display: grid;
+    grid-template-areas: 
+    "title   img"
+    "text    img"
+    "text    img"
+    "button  img"
+    ".    img"
+    "caption img" 
+    ".    img"  
+    ;
+    gap: 0 250px;
+}

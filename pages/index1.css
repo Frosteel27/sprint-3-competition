@@ -1,0 +1,29 @@
+@import url(../blocks/link/link.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__navigation-list/header__navigation-list.css);
+@import url(../blocks/header/__navigation-link/header__navigation-link.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__button/cover__button.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__caption/cover__caption.css);
+
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__text/quote__text.css);
+@import url(../blocks/quote/__main/quote__main.css);
+@import url(../blocks/quote/__author-name/quote__author-name.css);
+@import url(../blocks/quote/__author-prof/quote__author-prof.css);
+
+@import url(../blocks/highway/highway.css);
+@import url(../blocks/highway/__title/highway__title.css);
+@import url(../blocks/highway/__text/highway__text.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__items/gallery__items.css);
+@import url(../blocks/gallery/__nav/gallery__nav.css);
+@import url(../blocks/gallery/__nav-button/gallery__nav-button.css);
+@import url(../blocks/gallery/__nav-arrow/gallery__nav-arrow.css);
+
+

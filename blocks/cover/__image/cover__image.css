@@ -1,0 +1,4 @@
+.cover__image {
+    justify-self: end;
+    grid-area: img;
+}

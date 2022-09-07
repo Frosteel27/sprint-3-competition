@@ -1,0 +1,6 @@
+.highway {
+    padding: 120px 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
