@@ -1,0 +1,9 @@
+.workouts__grid {
+  display: grid;
+  gap: 50px 160px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'title img'
+    'text img'
+    'links img';
+}

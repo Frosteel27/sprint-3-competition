@@ -1,0 +1,6 @@
+.bikes__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  align-items: flex-end;
+}

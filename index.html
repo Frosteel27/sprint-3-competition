@@ -17,9 +17,9 @@
           </ul>
         </nav>
       </header> <!-- /header -->
-
-      <main class="content">
-        <section class="cover">
+    
+    <main class="content">
+      <section class="cover">
           <h1 class="cover__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
           <p class="cover__text">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
           <a href="#" class="link cover__button">Подробнее</a>
@@ -27,7 +27,7 @@
           <p class="cover__caption">Cannondale Systemsix</p>
         </section> <!-- /cover -->
 
-        <section class="quote">
+       <section class="quote">
           <img src="./images/quote.jpg" alt="" class="quote__image">
           <div class="quote__text">
             <blockquote class="quote__main">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</blockquote>
@@ -37,8 +37,7 @@
             </div>
           </div>
         </section> <!-- /quote -->
-
-        <section class="highway">
+       <section class="highway">
           <h2 class="highway__title">Шоссе</h2>
           <p class="highway__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
           <div class="gallery">
@@ -52,17 +51,60 @@
             </div>
           </div>
         </section> <!-- /highway -->
-
-        <section class="bikes">
-
-        </section>
-        <section class="workouts">
-
-        </section>
+      <section class="bikes">
+        <div class="bikes__heading">
+          <h2 class="bikes__title">Велосипеды</h2>
+          <ul class="bikes__list">
+            <li><a class="bikes__link bikes__link_active" href="#">Шоссе</a></li>
+            <li><a class="bikes__link" href="#">Грэвел</a></li>
+            <li><a class="bikes__link" href="#">TT</a></li>
+          </ul>
+        </div>
+        <ul class="bikes__grid">
+          <li class="bikes__grid-item">
+            <div class="bikes__img-holder">
+              <img class="bikes__img" src="./images/bike-item-1.png" alt="Велосипед" />
+            </div>
+            <p class="bikes__name">Cervelo Caledonia-5</p>
+          </li>
+          <li class="bikes__grid-item">
+            <div class="bikes__img-holder">
+              <img class="bikes__img" src="./images/bike-item-2.png" alt="Велосипед" />
+            </div>
+            <p class="bikes__name">Cannondale Systemsix Himod</p>
+          </li>
+          <li class="bikes__grid-item">
+            <div class="bikes__img-holder">
+              <img class="bikes__img" src="./images/bike-item-3.png" alt="Велосипед" />
+            </div>
+            <p class="bikes__name">Trek Domane SL-7</p>
+          </li>
+        </ul>
+      </section>
+      <section class="workouts">
+        <div class="workouts__grid">
+          <h2 class="workouts__title">Тренировки</h2>
+          <img class="workouts__img" src="./images/workouts-img.jpg" alt="Дорога" />
+          <div class="workouts__main-text">
+            <p class="workouts__paragraph">
+              Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать
+              эти тренировки поможет приложение Strava, а также это приложение позволит построить
+              тренировочный план.
+            </p>
+          </div>
+          <ul class="workouts__links">
+            <li><a class="workouts__link" href="#">Strava</a></li>
+            <li><a class="workouts__link" href="#">Komoot</a></li>
+          </ul>
+        </div>
+      </section>
     </main>
-      <footer class="footer">
-
-      </footer>
-
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <h3 class="footer__title">Подпишитесь на рассылку —</h3>
+        <input class="footer__email" placeholder="Ваш e-mail" type="email" name="" id="" />
+        <p class="footer__author">© あんていく 2022</p>
+      </div>
+    </footer>
   </body>
 </html>

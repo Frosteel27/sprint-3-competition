@@ -1,0 +1,5 @@
+.bikes__grid-item {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
