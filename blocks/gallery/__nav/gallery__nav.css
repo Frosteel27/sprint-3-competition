@@ -1,0 +1,9 @@
+.gallery__nav {
+    margin: 66px 0 0;
+}
+
+@media screen  and (max-width: 1280px){
+    .gallery__nav {
+        margin: 40px 0 0;
+    }
+}

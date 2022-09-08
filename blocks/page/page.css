@@ -4,4 +4,6 @@
   box-sizing: border-box;
   background-color: #f4f4f4;
   color: #151515;
+  margin: 0;
+  padding: 0;
 }

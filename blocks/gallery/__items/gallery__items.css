@@ -1,0 +1,6 @@
+.gallery__items {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
