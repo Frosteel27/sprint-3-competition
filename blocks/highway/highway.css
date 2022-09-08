@@ -1,0 +1,13 @@
+.highway {
+    padding: 120px 0 0 120px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    box-sizing: border-box;
+}
+
+@media screen  and (max-width: 1280px){
+    .highway {
+        padding: 100px  0 0 60px;
+    }
+}

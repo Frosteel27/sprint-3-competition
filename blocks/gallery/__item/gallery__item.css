@@ -1,0 +1,7 @@
+.gallery__item {
+    width: 50%;
+    height: auto;
+    display: block;
+    object-fit: fill;
+    max-width: 650px;
+}
