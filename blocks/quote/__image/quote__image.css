@@ -1,0 +1,5 @@
+.quote__image {
+    width: 60%;
+    max-width: 650px;
+    align-self: flex-start;
+}

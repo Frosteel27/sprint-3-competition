@@ -1,0 +1,6 @@
+.cover__image {
+    justify-self: center;
+    grid-area: img;
+    width: 100%;
+    min-width: 425px;
+}
