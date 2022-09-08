@@ -1,4 +1,5 @@
 .cover__image {
-    justify-self: end;
+    justify-self: center;
     grid-area: img;
+    width: 100%;
 }

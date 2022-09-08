@@ -1,14 +1,18 @@
 .cover {
     padding: 20px 0 0 120px;
     display: grid;
+    width: 100%;
+    box-sizing: border-box;
+
     grid-template-areas: 
     "title   img"
     "text    img"
     "text    img"
     "button  img"
-    ".    img"
+    ".       img"
     "caption img" 
-    ".    img"  
+    ".       img"  
     ;
-    gap: 0 250px;
+    gap: 0 50px;
+    justify-items: stretch;
 }
