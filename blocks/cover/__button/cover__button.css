@@ -1,4 +1,5 @@
 .cover__button {
+    text-decoration: none;
     grid-area: button;
     margin: 50px 0 0;
     width: 180px;
