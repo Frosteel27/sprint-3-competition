@@ -1,0 +1,14 @@
+.header__burger {
+    text-align: center;
+    vertical-align: center;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    .header__burger {
+        display: block;
+    }
+}
