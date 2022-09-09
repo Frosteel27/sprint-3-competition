@@ -1,9 +1,23 @@
 .workouts__grid {
   display: grid;
   gap: 50px 160px;
+  grid-template-columns: 1fr max-content;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
     'title img'
     'text img'
     'links img';
+}
+
+@media (max-width: 992px) {
+  .workouts__grid {
+    gap: 40px;
+    row-gap: 40px;
+    column-gap: 0;
+    grid-template-areas:
+    'title'
+    'img'
+    'text'
+    'links';
+  }
 }

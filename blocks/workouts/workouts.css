@@ -1,6 +1,9 @@
 .workouts {
-  max-width: 1236px;
-  margin: 0 auto;
-  padding: 150px 18px 120px;
-  box-sizing: border-box;
+  padding: 150px 0 120px;
+}
+
+@media (max-width: 576px) {
+  .workouts {
+    padding: 80px 0 60px;
+  }
 }

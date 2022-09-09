@@ -1,0 +1,13 @@
+.bikes__categories {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 992px) {
+  .bikes__categories {
+    display: none;
+  }
+}

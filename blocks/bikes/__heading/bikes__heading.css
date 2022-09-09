@@ -4,3 +4,17 @@
   margin-bottom: 120px;
   align-items: flex-end;
 }
+
+@media (max-width: 992px) {
+  .bikes__heading {
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 576px) {
+  .bikes__heading {
+    margin-bottom: 20px;
+  }
+}
