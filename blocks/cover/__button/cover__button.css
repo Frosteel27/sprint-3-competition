@@ -14,6 +14,11 @@
     line-height: 1.3;
     letter-spacing: 1px;
     font-weight: 600;
+    transition: all .2s;
+}
+
+.cover__button:hover {
+    transform: scale(1.01);
 }
 
 @media screen and (max-width: 1024px) {
