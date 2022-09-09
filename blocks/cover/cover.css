@@ -3,7 +3,6 @@
     display: grid;
     width: 100%;
     box-sizing: border-box;
-    min-height: 856px;
 
     grid-template-areas: 
     "title   img"
@@ -25,10 +24,10 @@
 
 @media screen and (max-width: 1024px){
     .cover {
+        gap: 0;
         padding: 30px 18px 0;
         grid-template-areas: 
         "title"
-        "img"
         "img"
         "text"
         "button"
