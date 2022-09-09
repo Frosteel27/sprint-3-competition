@@ -5,7 +5,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .bikes__grid-item:nth-child(3) {
     display: none;
   }

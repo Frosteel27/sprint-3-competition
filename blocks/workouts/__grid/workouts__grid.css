@@ -9,7 +9,7 @@
     'links img';
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1080px) {
   .workouts__grid {
     gap: 40px;
     row-gap: 40px;
