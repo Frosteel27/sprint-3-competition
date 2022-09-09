@@ -12,3 +12,9 @@
     width: 132px;
     border: 1px solid #D7D4D4;
 }
+
+@media screen and (max-width: 1024px){
+    .cover__caption {
+        display: none;
+    }
+}

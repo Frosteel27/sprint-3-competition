@@ -5,3 +5,10 @@
     line-height: 1.75;
     color: rgba(34, 34, 34, .7);
 }
+
+@media screen and (max-width: 768px) {
+    .quote__author-prof {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+}

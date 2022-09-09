@@ -25,12 +25,11 @@
 @import url(../blocks/highway/highway.css);
 @import url(../blocks/highway/__title/highway__title.css);
 @import url(../blocks/highway/__text/highway__text.css);
-@import url(../blocks/gallery/gallery.css);
-@import url(../blocks/gallery/__items/gallery__items.css);
-@import url(../blocks/gallery/__item/gallery__item.css);
-@import url(../blocks/gallery/__nav/gallery__nav.css);
-@import url(../blocks/gallery/__nav-button/gallery__nav-button.css);
-@import url(../blocks/gallery/__nav-arrow/gallery__nav-arrow.css);
+@import url(../blocks/highway/__gallery/highway__gallery.css);
+@import url(../blocks/highway/__gallery-item/highway__gallery-item.css);
+@import url(../blocks/highway/__nav/highway__nav.css);
+@import url(../blocks/highway/__nav-button/highway__nav-button.css);
+@import url(../blocks/highway/__nav-arrow/highway__nav-arrow.css);
 
 @import url(../blocks/bikes/bikes.css);
 @import url(../blocks/bikes/__heading/bikes__heading.css);

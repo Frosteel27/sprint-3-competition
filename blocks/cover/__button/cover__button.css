@@ -1,6 +1,8 @@
 .cover__button {
     text-decoration: none;
     grid-area: button;
+    display: block;
+    box-sizing: border-box;
     margin: 50px 0 0;
     width: 180px;
     background-color: #24B47E;
@@ -12,4 +14,17 @@
     line-height: 1.3;
     letter-spacing: 1px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .cover__button {
+        font-size: 13px;
+        line-height: 1.46;
+    }
 }
