@@ -5,7 +5,7 @@
     line-height: 1.1;
     font-weight: 700;
     letter-spacing: -.5px;
-    grid-area: "title";
+    grid-area: title;
 }
 
 @media screen and (max-width: 768px) {

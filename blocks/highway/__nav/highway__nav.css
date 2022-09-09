@@ -1,5 +1,5 @@
 .highway__nav {
-    grid-area: "nav";
+    grid-area: nav;
     margin: 50px 0 0;
     display: flex;
     gap: 20px;
