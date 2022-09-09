@@ -1,9 +1,24 @@
 .bikes {
   padding: 60px 0;
+  position: relative;
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 768px) {
+  .bikes::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 89%;
+    position: absolute;
+    background-color: #E3E3E3;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 576px) {
   .bikes {
-    padding: 40px 0;
+    padding: 40px 0 80px;
   }
 }

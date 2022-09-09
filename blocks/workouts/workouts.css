@@ -1,9 +1,24 @@
 .workouts {
   padding: 150px 0 120px;
+  position: relative;
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 768px) {
+  .workouts::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 89%;
+    position: absolute;
+    background-color: #E3E3E3;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 576px) {
   .workouts {
-    padding: 80px 0 60px;
+    padding: 40px 0 60px;
   }
 }

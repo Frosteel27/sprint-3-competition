@@ -5,6 +5,7 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__burger-img/header__burger-img.css);
 @import url(../blocks/header/__navigation-list/header__navigation-list.css);
 @import url(../blocks/header/__navigation-link/header__navigation-link.css);
 
@@ -36,6 +37,7 @@
 @import url(../blocks/bikes/__heading/bikes__heading.css);
 @import url(../blocks/bikes/__title/bikes__title.css);
 @import url(../blocks/bikes/__categories/bikes__categories.css);
+@import url(../blocks/bikes/__dropdown-wrapper/bikes__dropdown-wrapper.css);
 @import url(../blocks/bikes/__dropdown/bikes__dropdown.css);
 @import url(../blocks/bikes/__link/bikes__link.css);
 @import url(../blocks/bikes/__link/_active/bikes__link_active.css);

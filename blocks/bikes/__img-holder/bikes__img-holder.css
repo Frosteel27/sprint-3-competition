@@ -8,3 +8,9 @@
   padding: 20px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 576px) {
+  .bikes__img-holder {
+    padding: 15px 15px 37px;
+  }
+}

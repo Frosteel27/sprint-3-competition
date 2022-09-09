@@ -23,7 +23,7 @@
   box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .footer__email {
     margin: 0 0 40px;
   }

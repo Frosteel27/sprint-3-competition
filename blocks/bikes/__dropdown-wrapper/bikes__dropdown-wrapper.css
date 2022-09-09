@@ -1,0 +1,21 @@
+.bikes__dropdown-wrapper {
+    display: none;
+    position: relative;
+}
+
+.bikes__dropdown-wrapper:after {
+    content: '';
+    width: 12px;
+    height: 6px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-image: url(/images/dropdown-arrow.svg);
+}
+
+@media screen and (max-width: 992px) {
+    .bikes__dropdown-wrapper {
+        display: block;
+    }
+}
