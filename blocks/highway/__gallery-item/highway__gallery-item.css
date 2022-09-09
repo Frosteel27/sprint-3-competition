@@ -1,0 +1,13 @@
+.highway__gallery-item {
+    overflow: hidden;
+}
+
+@media screen and (max-width:768px) {
+    .highway__gallery-item {
+        width: 100%;
+    }
+
+    .highway__gallery-item:last-of-type {
+        display: none;
+    }
+}

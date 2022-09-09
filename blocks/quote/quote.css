@@ -4,12 +4,33 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
+
+
 
 @media screen  and (max-width: 1280px){
     .quote {
         padding: 100px 60px 0 60px;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
+    }
+}
+
+@media screen  and (max-width: 768px) {
+    .quote {
+        padding: 100px 18px 0;
+    }
+
+    .quote::before {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 89%;
+        position: absolute;
+        background-color: #E3E3E3;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
