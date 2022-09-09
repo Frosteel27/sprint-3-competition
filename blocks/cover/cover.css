@@ -3,13 +3,13 @@
     display: grid;
     width: 100%;
     box-sizing: border-box;
+    min-height: 856px;
 
     grid-template-areas: 
     "title   img"
     "text    img"
     "text    img"
     "button  img"
-    ".       img"
     "caption img" 
     ".       img"  
     ;

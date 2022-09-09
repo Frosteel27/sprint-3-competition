@@ -1,9 +1,14 @@
 .cover__image {
-    justify-self: center;
+    justify-self: end;
     grid-area: img;
-    width: 100%;
     display: block;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover__image {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1024px){

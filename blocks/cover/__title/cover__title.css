@@ -1,10 +1,10 @@
 .cover__title {
     grid-area: title;
-    margin: 0;
+    margin: 62px 0 0;
     padding: 0;
     max-width: 460px;
     font-size: 55px;
-    line-height: 1.1;
+    line-height: 1.09;
     font-weight: 700;
     letter-spacing: -.5px;
 }
