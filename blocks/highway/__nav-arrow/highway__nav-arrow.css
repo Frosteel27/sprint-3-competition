@@ -1,0 +1,9 @@
+.highway__nav-arrow {
+    margin-left: -5px;
+}
+
+@media screen and (max-width: 768px) {
+    .highway__nav-arrow {
+        margin-left: -2px;
+    }
+}
